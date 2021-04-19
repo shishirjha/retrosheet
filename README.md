@@ -1,9 +1,10 @@
 # retrosheet 📄
 Turn Google Spreadsheet to JSON endpoint. [For Android and JVM].
 
-![](https://i.imgur.com/LYqPOcu.png)
+![https://github.com/theapache64/notes](demo.png)
 
-## Benefits
+
+## Benefits 🤗
 
 - Since you're using Google's server, you don't have to worry about server health.
 - Rapid response and unlimited bandwidth
@@ -15,10 +16,12 @@ any significant code change.
 ## Install 🤝 
 
 ```groovy
-    implementation 'com.theapache64:retrosheet:1.2.0'
+    implementation 'com.theapache64:retrosheet:1.2.3'
 ```
 
 ## Usage ⌨️ 
+
+### How to write data ? ✍️
 
 #### Step 1 : Writing Data To Sheet
 
@@ -91,6 +94,8 @@ You can lean more about query language from here : https://developers.google.com
 
 **NOTE**: You can use your column name in the query rather than using column letter such as `A,B,C` etc.
 
+### How to read data ? 📖
+
 #### Step 7 : Reading data from Sheet
 
 - We're done configuring the writing part. Now let's finish the reading part. Create/open a google sheet, (it can be either
@@ -123,7 +128,7 @@ https://docs.google.com/spreadsheets/d/1IcZTH6-g7cZeht_xr82SHJOuJXD_p55QueMrZcns
 
 Done 👍 
 
-## Full Example
+## Full Example 🌟
 
 ```kotlin
 import com.squareup.moshi.Moshi
@@ -180,7 +185,8 @@ fun main() = runBlocking {
 ```
 
 
-## Samples
+## Samples 🌠
+
 - [Notes - JVM](https://github.com/theapache64/retrosheet/blob/master/src/main/kotlin/com/theapache64/retrosheet/sample/notes/Notes.kt) - README Example 👆
 - [Notes - Android](https://github.com/theapache64/notes) - Android App : Simple note taking app, with add and list feature
 - [Nemo](https://github.com/theapache64/nemo) - Android App :  E-Commerce App
